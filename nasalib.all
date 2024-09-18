@@ -3,6 +3,7 @@
 # are paramters to proveit. If <lib> is empty, options apply to
 # all libraries thenceforth.
 : --log --disable-oracles --dir summaries # Save summary files in summaries/
+: --summary-mode md
 ints
 structures
 reals
@@ -24,54 +25,62 @@ matrices
 Bernstein
 Sturm
 Tarski
-MetiTarski : --enable metit
+MetiTarski  : --enable metit
 fast_approx : --enable metit
-shapes: --enable metit
+shapes      : --enable metit
 complex
 digraphs         
-float
 fault_tolerance
+float/float_bounded_axiomatic
+float/float_bounded
+float/float_unbounded
+float/float_ieee854
 graphs             
-PVSioChecker
+pvsio_utils
+pvsio_utils/PVSioChecker
+pvsio_utils/PVSioCSV
+pvsio_utils/PVSioKeyVal
 LTL
-# Exact real arithmetic. Contributed by David Lester (Manchester University, UK)
 exact_real_arith 
-# Aviation formulas
 aviation : --enable metit
-# Airborne Coordinated Conflict Resolution and Detection (ACCoRD)
 ACCoRD : --enable metit
-# The following libraries are contributed by Mauricio Ayala et al (University of Brasilia, Brazil)
 sorting          
+nominal
 TRS              
 CCG
-# Embedding of first order recursive functions in PVS
-PVS0 
-# Computation of numerical intergrals. Contributed by Amer Tahat (Michigan Technological University)
+PVS0  
 Riemann 
-# Examples
-examples : --enable metit -sf
-# The following libraries are contributed by David Lester (Manchester University, UK)
-topology         
-complex_alt
-scott            
-while            
-extended_nnreal
-metric_space    
-measure_integration
-complex_integration
-lebesgue
-probability
-# Other contributions
-co_structures    # Jerry James (Utah State University, US)  
-TU_Games         # Erik Martin-Dorel (U. Montpellier 2 & U. of Perpignan, France)
-linear_algebra   # Heber Herencia (NIA), Sam Owre (SRI), Gilberto Perez (University of Coruna, Spain)
-ASP              # Denotational semantics of Answer Set Programming. Contributed by Gilberto Perez et al (Universidade da Coruna, Spain)
-## Dependable Computing contributions
-line_segments
-polygons
-polygon_merge
-# Deprecated libraries
+topology            
+complex_alt         
+scott               
+while               
+extended_nnreal     
+metric_space        
+measure_integration 
+complex_integration 
+lebesgue            
+probability         
+co_structures       
+TU_Games            
+linear_algebra      
+ASP                 
+line_segments       
+polygons            
+polygon_merge       
+mv_analysis
+ODEs
+dL
+mult_poly
+## Examples
+examples : --enable metit -sf 
+algebra/algebra_examples
+pvsio_utils/pvsio_examples
+# dL/dL_examples : --enable metit
+# dL/dL_RTA: --enable metit
+# dL/dL_LTL_examples: --enable metit
+# dL/dL_Liveness_examples : --enable metit
+## Deprecated libraries
 # decimals         # Included in PVSio since 7.0
 # lnexp_fnd        # Renamed lnexp since 7.0
-# trig_fnd         # David Lester. This library is now replaced by trig
-# groups           # Merged into the Algebra library.
+# trig_fnd         # Replaced by trig 
+# groups           # Merged into the algebra library

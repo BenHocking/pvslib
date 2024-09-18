@@ -67,7 +67,7 @@
      Riemann_integ_interval_approx_perf Riemann)
     (Riem_sec_r2i type-eq-decl nil Riemann_integ_interval_approx
      Riemann)
-    (cos const-decl "real" sincos_def trig_fnd)
+    (cos const-decl "real" sincos_def trig)
     (|##| const-decl "bool" interval interval_arith)
     (le_realorder name-judgement "RealOrder" real_orders reals)
     (locallyProper? const-decl "bool"
@@ -122,7 +122,7 @@
      Riemann_integ_interval_approx_perf Riemann)
     (Riem_sec_r2i type-eq-decl nil Riemann_integ_interval_approx
      Riemann)
-    (cos const-decl "real" sincos_def trig_fnd)
+    (cos const-decl "real" sincos_def trig)
     (|##| const-decl "bool" interval interval_arith)
     (le_realorder name-judgement "RealOrder" real_orders reals)
     (locallyProper? const-decl "bool"
@@ -178,7 +178,7 @@
      Riemann_integ_interval_approx_perf Riemann)
     (Riem_sec_r2i type-eq-decl nil Riemann_integ_interval_approx
      Riemann)
-    (cos const-decl "real" sincos_def trig_fnd)
+    (cos const-decl "real" sincos_def trig)
     (|##| const-decl "bool" interval interval_arith)
     (le_realorder name-judgement "RealOrder" real_orders reals)
     (locallyProper? const-decl "bool"
@@ -232,7 +232,7 @@
      Riemann_integ_interval_approx_perf Riemann)
     (Riem_sec_r2i type-eq-decl nil Riemann_integ_interval_approx
      Riemann)
-    (cos const-decl "real" sincos_def trig_fnd)
+    (cos const-decl "real" sincos_def trig)
     (|##| const-decl "bool" interval interval_arith)
     (le_realorder name-judgement "RealOrder" real_orders reals)
     (locallyProper? const-decl "bool"
@@ -325,7 +325,7 @@
      Riemann_integ_interval_approx_perf Riemann)
     (Riem_sec_r2i type-eq-decl nil Riemann_integ_interval_approx
      Riemann)
-    (cos const-decl "real" sincos_def trig_fnd)
+    (cos const-decl "real" sincos_def trig)
     (|##| const-decl "bool" interval interval_arith)
     (le_realorder name-judgement "RealOrder" real_orders reals)
     (locallyProper? const-decl "bool"
@@ -379,7 +379,7 @@
      Riemann_integ_interval_approx_perf Riemann)
     (Riem_sec_r2i type-eq-decl nil Riemann_integ_interval_approx
      Riemann)
-    (cos const-decl "real" sincos_def trig_fnd)
+    (cos const-decl "real" sincos_def trig)
     (|##| const-decl "bool" interval interval_arith)
     (le_realorder name-judgement "RealOrder" real_orders reals)
     (locallyProper? const-decl "bool"
@@ -472,7 +472,7 @@
      Riemann_integ_interval_approx_perf Riemann)
     (Riem_sec_r2i type-eq-decl nil Riemann_integ_interval_approx
      Riemann)
-    (sin const-decl "real" sincos_def trig_fnd)
+    (sin const-decl "real" sincos_def trig)
     (|##| const-decl "bool" interval interval_arith)
     (le_realorder name-judgement "RealOrder" real_orders reals)
     (locallyProper? const-decl "bool"
@@ -526,7 +526,7 @@
      Riemann_integ_interval_approx_perf Riemann)
     (Riem_sec_r2i type-eq-decl nil Riemann_integ_interval_approx
      Riemann)
-    (sin const-decl "real" sincos_def trig_fnd)
+    (sin const-decl "real" sincos_def trig)
     (|##| const-decl "bool" interval interval_arith)
     (le_realorder name-judgement "RealOrder" real_orders reals)
     (locallyProper? const-decl "bool"
@@ -621,7 +621,7 @@
      Riemann_integ_interval_approx_perf Riemann)
     (Riem_sec_r2i type-eq-decl nil Riemann_integ_interval_approx
      Riemann)
-    (sin const-decl "real" sincos_def trig_fnd)
+    (sin const-decl "real" sincos_def trig)
     (|##| const-decl "bool" interval interval_arith)
     (le_realorder name-judgement "RealOrder" real_orders reals)
     (locallyProper? const-decl "bool"
@@ -714,7 +714,7 @@
      Riemann_integ_interval_approx_perf Riemann)
     (Riem_sec_r2i type-eq-decl nil Riemann_integ_interval_approx
      Riemann)
-    (sin const-decl "real" sincos_def trig_fnd)
+    (sin const-decl "real" sincos_def trig)
     (|##| const-decl "bool" interval interval_arith)
     (le_realorder name-judgement "RealOrder" real_orders reals)
     (locallyProper? const-decl "bool"
@@ -768,7 +768,7 @@
      Riemann_integ_interval_approx_perf Riemann)
     (Riem_sec_r2i type-eq-decl nil Riemann_integ_interval_approx
      Riemann)
-    (sin const-decl "real" sincos_def trig_fnd)
+    (sin const-decl "real" sincos_def trig)
     (|##| const-decl "bool" interval interval_arith)
     (le_realorder name-judgement "RealOrder" real_orders reals)
     (locallyProper? const-decl "bool"
@@ -861,7 +861,7 @@
      Riemann_integ_interval_approx_perf Riemann)
     (Riem_sec_r2i type-eq-decl nil Riemann_integ_interval_approx
      Riemann)
-    (sin const-decl "real" sincos_def trig_fnd)
+    (sin const-decl "real" sincos_def trig)
     (|##| const-decl "bool" interval interval_arith)
     (le_realorder name-judgement "RealOrder" real_orders reals)
     (locallyProper? const-decl "bool"
@@ -915,7 +915,7 @@
      Riemann_integ_interval_approx_perf Riemann)
     (Riem_sec_r2i type-eq-decl nil Riemann_integ_interval_approx
      Riemann)
-    (sin const-decl "real" sincos_def trig_fnd)
+    (sin const-decl "real" sincos_def trig)
     (|##| const-decl "bool" interval interval_arith)
     (le_realorder name-judgement "RealOrder" real_orders reals)
     (locallyProper? const-decl "bool"
@@ -1182,7 +1182,7 @@
      Riemann)
     (ln const-decl "real" ln_exp lnexp)
     (exp const-decl "{py | x = ln(py)}" ln_exp lnexp)
-    (cos const-decl "real" sincos_def trig_fnd)
+    (cos const-decl "real" sincos_def trig)
     (|##| const-decl "bool" interval interval_arith)
     (le_realorder name-judgement "RealOrder" real_orders reals)
     (locallyProper? const-decl "bool"
@@ -1245,7 +1245,7 @@
      Riemann)
     (ln const-decl "real" ln_exp lnexp)
     (exp const-decl "{py | x = ln(py)}" ln_exp lnexp)
-    (cos const-decl "real" sincos_def trig_fnd)
+    (cos const-decl "real" sincos_def trig)
     (|##| const-decl "bool" interval interval_arith)
     (le_realorder name-judgement "RealOrder" real_orders reals)
     (locallyProper? const-decl "bool"
@@ -1342,7 +1342,7 @@
      Riemann_integ_interval_approx_perf Riemann)
     (Riem_sec_r2i type-eq-decl nil Riemann_integ_interval_approx
      Riemann)
-    (sin const-decl "real" sincos_def trig_fnd)
+    (sin const-decl "real" sincos_def trig)
     (|##| const-decl "bool" interval interval_arith)
     (le_realorder name-judgement "RealOrder" real_orders reals)
     (locallyProper? const-decl "bool"
@@ -1397,7 +1397,7 @@
      Riemann_integ_interval_approx_perf Riemann)
     (Riem_sec_r2i type-eq-decl nil Riemann_integ_interval_approx
      Riemann)
-    (sin const-decl "real" sincos_def trig_fnd)
+    (sin const-decl "real" sincos_def trig)
     (|##| const-decl "bool" interval interval_arith)
     (le_realorder name-judgement "RealOrder" real_orders reals)
     (locallyProper? const-decl "bool"
@@ -1719,7 +1719,7 @@
     (O const-decl "T3" function_props nil)
     (ln const-decl "real" ln_exp lnexp)
     (exp const-decl "{py | x = ln(py)}" ln_exp lnexp)
-    (cos const-decl "real" sincos_def trig_fnd)
+    (cos const-decl "real" sincos_def trig)
     (|##| const-decl "bool" interval interval_arith)
     (le_realorder name-judgement "RealOrder" real_orders reals)
     (locallyProper? const-decl "bool"
@@ -1783,7 +1783,7 @@
     (O const-decl "T3" function_props nil)
     (ln const-decl "real" ln_exp lnexp)
     (exp const-decl "{py | x = ln(py)}" ln_exp lnexp)
-    (cos const-decl "real" sincos_def trig_fnd)
+    (cos const-decl "real" sincos_def trig)
     (|##| const-decl "bool" interval interval_arith)
     (le_realorder name-judgement "RealOrder" real_orders reals)
     (locallyProper? const-decl "bool"

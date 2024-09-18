@@ -1,8 +1,0 @@
-csv_writerow[T_: TYPE+]: THEORY
-BEGIN
-
-  IMPORTING csv_writer
-
-  write_row(csvw: CSVWriter, row: T_): void
-  
-END csv_writerow

@@ -1,0 +1,16 @@
+(defvar *nasalib-version*
+  (format nil "~av-~a (~a)"
+	  (extra-pvslib-keyval "NASALib" "id")
+	  (extra-pvslib-keyval "NASALib" "version")
+	  (extra-pvslib-keyval "NASALib" "date")))
+
+;; Get the absolute path to the PVS NASA library
+(defun nasalib-path ()
+  (format nil "~a" (extra-pvslib-keyval "NASALib" "dir")))
+
+;; Get the absolute path to the PVS NASA library -- DEPRECATED use (nasalib-path) instead
+(defun extra-pvs-nasalib ()
+  (format *error-output*
+	  "DEPRECATED (extra-pvs-nasalib) use (nasalib-path) instead~%")
+  (loop for path in *pvs-library-path* when (probe-file (format nil "~a.nasalib" path))
+	return path))
